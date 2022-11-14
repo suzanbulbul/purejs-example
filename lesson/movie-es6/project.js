@@ -47,7 +47,6 @@ function addFilm(e){
     //sayfaya tekrar yönlenmemesini önlemek
     e.preventDefault();
 }
-
 function deleteFilm(e){
   //sil butonuna basılmıssa
    if(e.target.id=== "delete-film"){
